@@ -2,7 +2,7 @@
 class ThisIsAnUnusedModel {
 
 	public function GetString() {
-	   $a = $_SESSION['a'];
+	   $a = $_POST['a'];
 		return "The void";
 	}
 }
