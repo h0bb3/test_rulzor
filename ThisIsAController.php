@@ -20,6 +20,8 @@ class ThisIsAnotherControllerInSameFile {
 		$a = $_GET['a'];
 		$a = $_REQUEST['a'];
 		$v = new ThisIsAView();
+		
+		// just to force a push
 
 	}
 }
