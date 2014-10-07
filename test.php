@@ -4,7 +4,7 @@
 class Test {
 
   public function __construct() {
-    // push again!
+    // push again! and again
     $a = $_POST['a'];
 		$a = $_GET['a'];
 		$a = $_REQUEST['a'];
