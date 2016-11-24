@@ -1,7 +1,7 @@
 <?php
 // a test view that is not named correctly
 
-class Test {
+class TestView {
 
   public function __construct() {
     // push again! and again
