@@ -16,9 +16,9 @@ class ThisIsAnotherControllerInSameFile {
 	public function DoScenario() {
 		
 		//$a = $_SESSION['a'];
-		$a = $_POST['a'];
-		$a = $_GET['a'];
-		$a = $_REQUEST['a'];
+		//$a = $_POST['a'];
+		//$a = $_GET['a'];
+		//$a = $_REQUEST['a'];
 		$v = new ThisIsAView();
 		
 		// just to force a push
