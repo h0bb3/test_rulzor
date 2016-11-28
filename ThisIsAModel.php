@@ -11,7 +11,7 @@ class ThisIsAModel {
 	}
 
 	public function GetString() {
-		return "<h1>" . $this->m_secondModel->GetString() . "</h1>";
+		return $this->m_secondModel->GetString();
 	}
 }
 ?>
