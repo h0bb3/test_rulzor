@@ -11,7 +11,7 @@ class ThisIsAModel {
 	}
 
 	public function GetString() {
-		echo "<h1>Hello</h1>"
+		echo "<h1>Hello</h1>";
 		return $this->m_secondModel->GetString();
 	}
 }
